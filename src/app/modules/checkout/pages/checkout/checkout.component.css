@@ -1,0 +1,157 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  background-color: #F7DBD1;
+  padding: 0rem;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+:host .image-thank {
+  width: 13rem;
+  border-radius: 10rem;
+  object-fit: cover;
+  border: solid 5px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 21px rgb(199, 179, 180);
+  height: 13rem;
+}
+
+:host .cover-background{
+  filter: blur(3px);
+  display: block;
+  height: 12rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: .4;
+  background-position: center;
+  box-shadow: inset 0px -33px 20px 0px rgb(247, 219, 209);
+}
+
+:host .form-card-credit .input-card-holder, :host .form-card-credit .StripeElement {
+  background: white;
+  width: 100%;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0 0 14px rgba(122, 122, 122, 0.18);
+  color: #222;
+  text-align: center;
+}
+
+:host .content {
+  position: sticky;
+  padding: 2rem 2rem .25rem;
+}
+
+:host .content .name {
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem .25rem .25rem;
+}
+
+:host .notice {
+  padding: 1rem 1.5rem;
+}
+:host .notice ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+:host .notice .in {
+  font-size: .85rem;
+  text-rendering: optimizeLegibility;
+  color: #5c5c5c;
+  background-color: #ffffff;
+  padding: 1.15rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 16px rgba(158, 98, 98, 0.4);
+}
+
+:host .bar {
+  background-color: white;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  width: 90%;
+  font-weight: 600;
+  color: #522056;
+  right: 0;
+  padding: 1rem 2rem;
+  position: absolute;
+}
+
+:host .amount small {
+  color: gray;
+  font-weight: 500;
+}
+
+:host .amount {
+  padding: 1rem;
+}
+:host .icons-zone{
+  padding: .25rem 4rem 2rem;
+}
+:host .icons-zone .in{
+  display: flex;
+  justify-content: space-around;
+  padding: .25rem;
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 1.25rem;
+  width: 100%;
+
+}
+
+:host .icons-zone img{
+  width: 2rem;
+}
+
+:host .amount .label, :host .second-block label {
+  font-weight: 500;
+  color: gray;
+  text-rendering: optimizeLegibility;
+}
+
+:host .amount input {
+  background: white;
+  width: 100%;
+  height: 4.5rem;
+  border: 0;
+  border-radius: 2rem;
+  font-size: 2rem;
+  box-shadow: 0 0 14px rgba(122, 122, 122, 0.18);
+  color: #222;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #F65163;
+  border-color: #ff5d65
+}
+
+:host .second-block textarea {
+  width: 100%;
+  border: 0;
+  font-weight: 500;
+  background: white;
+  border-radius: 1rem;
+  min-height: 6rem;
+  font-size: 1rem;
+  resize: none;
+  padding: 1rem;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #c7c3c3;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c7c3c3;
+}
+
+::placeholder {
+  color: #c7c3c3;
+}

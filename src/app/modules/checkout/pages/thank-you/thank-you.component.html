@@ -1,0 +1,32 @@
+<div>
+  <div class="content">
+
+    <div @swipe class="title mb-4">{{'THANK_YOU.TITLE' |translate}}</div>
+    <div @swipe class="text-center">
+      <img class="image-thank" src="../../../../../assets/img/metas.svg" border="0" alt="">
+    </div>
+    <div @swipe class="d-block mt-1 mb-2">
+      <div class="text-center mb-2">
+        <div class="alert alert-info">
+          {{data?.description}}
+        </div>
+      </div>
+      <div class="text-center p-1 bg-white amount">
+        <h2 class="m-0">{{data?.amount | number}} {{'CURRENCY' |translate}}</h2>
+      </div>
+    </div>
+    <div @swipe class="d-block mt-4">
+      <div class="text-center ">
+        {{'THANK_YOU.LOCAL_E' |translate}}
+      </div>
+    </div>
+    <br class="clearfix">
+    <div @swipe class="button-zone text-center">
+      <div>
+        <button routerLink="/home" class="btn btn-lg btn-block btn-primary">
+          {{'WAIT.CONTINUE' |translate}}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

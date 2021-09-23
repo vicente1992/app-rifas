@@ -1,0 +1,239 @@
+:host {
+  display: block;
+  background-color: #522056;
+  /* padding: .25rem; */
+  font-family: 'Baloo Thambi 2', cursive;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+
+:host .label-zone-social {
+  padding: 1rem;
+  text-align: center;
+  color: #666666;
+}
+
+:host .content {
+  height: calc(100% - .1rem);
+  background-color: white;
+  border-radius: .25rem .25rem 1.5rem 1.5rem;
+  padding: .35rem 1rem;
+}
+
+:host .menu .avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  object-fit: cover;
+}
+
+:host .header .title {
+  font-size: 1.8rem;
+}
+
+:host .header .sub-title {
+  color: #7F7F7F;
+}
+
+:host .header .title .font-weigh {
+  font-weight: 600;
+}
+
+:host a {
+  color: #522056;
+  font-weight: 600;
+}
+
+:host .link {
+  color: #522056;
+}
+
+:host .categories {
+  background-color: #F7DBD3;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  padding: .5rem 1rem;
+  margin-right: -1rem;
+}
+
+:host hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(143, 143, 143, 0.1) !important;
+}
+
+:host .seller img {
+  width: 100%;
+  height: 10vh;
+  opacity: .75;
+}
+
+
+:host .categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+:host .categories ul li .name {
+  text-align: center;
+  font-weight: 600;
+  font-size: .9rem;
+}
+.name {
+  /* text-align: center; */
+  font-weight: 600;
+  font-size: 22px;
+}
+
+:host .categories ul .wrapper-icon {
+  background-color: white;
+  padding: .5rem;
+  line-height: 2rem;
+  border-radius: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+:host .list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:host .list ul li {
+  cursor: pointer;
+  min-height: 5rem;
+  margin: 0 0 1rem 0;
+  box-shadow: -1px 2px 14px #e3e3e385;
+  border-radius: 15px;
+}
+
+:host .list ul li .img-avatar {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+  border-radius: 1rem
+}
+
+
+
+:host .list ul li .content .name {
+  font-weight: 500;
+}
+
+:host .list ul li .content .votes {
+  font-weight: 600;
+  font-size: .5rem;
+}
+
+:host .list ul li .content .time {
+  font-weight: 600;
+  color: #474747;
+}
+
+:host .list .img-broken {
+  background-image: url(../../../../../assets/img/camara.svg);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+:host .list ul li .img {
+  height: 5rem;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  background: white;
+}
+
+:host ul li .short-location {
+  /* color: #686868; */
+  font-weight: 500;
+  font-size: 20px;
+   color: #222
+
+}
+
+:host .alert {
+  padding: .5rem 1rem !important;
+  border-radius: 1.5rem !important;
+  font-size: .8rem !important;
+}
+
+:host .alert-warning {
+  background-color: #fffaeb !important;
+  border: solid 1px #fbf1e2 !important;
+  box-shadow: 0px 4px 15px rgba(226, 226, 226, 0.77) !important;
+  color: #5c5c5c !important;
+}
+
+:host .categories li .wrapper-icon.active {
+  box-shadow: 0px 0px 0px rgb(54, 106, 236);
+  border: solid 2px #366aec;
+  transform: scale(1.15);
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+:host .badge {
+  background-color: #F3F0F4;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: .3rem .3rem;
+}
+
+:host .favorite {
+  line-height: 5rem;
+}
+
+:host .float-range {
+  position: fixed;
+  bottom: 1rem;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+:host .float-range .in {
+  position: relative;
+  background: rgb(255, 255, 255);
+  bottom: 1rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border-radius: 2rem;
+  padding: .5rem;
+  color: #393c3e;
+  font-size: .85rem;
+  box-shadow: 0 0 29px rgba(0, 0, 0, 0.45);
+}
+:host .list ul li .description-short {
+  display: none;
+}
+@media (min-width: 600px) {
+  :host .list ul li .img {
+    height: 7rem;
+  }
+  :host .list ul li .description-short  {
+    display: block;
+    margin-top: .35rem;
+  }
+
+  :host .list ul li .description-short small{
+    font-weight: 500;
+    color: #9a9a9a;
+
+  }
+
+  :host{
+    background-color:  transparent;
+  }
+
+}

@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  position: absolute;
+  width: 100%;
+  background-color: #F7DBD1;
+  padding: 0rem;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+:host .image-thank {
+  width: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+:host .amount{
+  border-radius: 1rem;
+}
+
+:host .alert-info{
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 0;
+  border-radius: 1rem;
+  font-size: .85em;
+}
+
+:host .content .title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+:host .content {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+:host .bar {
+  background-color: white;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+  width: 90%;
+  font-weight: 600;
+  color: #522056;
+  right: 0;
+  padding: 1rem 2rem;
+  margin-top: 4rem;
+  float: right;
+  margin-right: -1rem;
+}
+
+:host .button-zone {
+  margin-top: 2rem;
+}

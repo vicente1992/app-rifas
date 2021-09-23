@@ -1,0 +1,84 @@
+<div>
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <div class="cover-background" [style.backgroundImage]="'url('+urlImage+')'"></div>
+    <div class="content">
+      <div @swipe class="text-center">
+        <img class="image-thank" [src]="urlImage" alt="">
+      </div>
+      <div @swipe class="name truncate">{{data?.name}}</div>
+    </div>
+    <div @swipe class="notice">
+      <div class="in">
+
+        <div *ngIf="data?.customData?.options?.notice">
+          <div [innerHTML]="sanitizer.bypassSecurityTrustHtml(data?.customData?.options?.notice)">
+          </div>
+
+          <div class="text-center">
+            <div style='font-size:1.7rem'><span id='amount_ticket' style='color:#f65163'>{{(amount / 100) }}
+              </span> Boleto(s)
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <div>
+              <h6><b>{{data?.name}}</b></h6>
+            </div>
+            <div>{{data?.description}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div @swipe class="amount text-center">
+      <input type="number" [max]="9999" [min]="5" formControlName="amount" min="5" max="9999" minlength="1"
+        maxlength="4" placeholder="0.00 MXN" readonly>
+      <small>{{'CHECKOUT.MAX_AMOUNT' |translate}}</small>
+    </div>
+
+    <div class="pr-3 pl-3">
+      <div class="form-card-credit">
+        <div class="form-group mt-0 pt-3">
+          <input type="text" class="form-control input-card-holder text-center" formControlName="card_holder"
+            id="card_holder" aria-describedby="card_holder" placeholder="{{'CARD.CARD_HOLDER' | translate}}">
+        </div>
+        <div class="form-group mt-0" id="card_number"></div>
+        <div class="form-group mt-0" id="card_exp"></div>
+        <div class="form-group mt-0" id="card_cvc"></div>
+      </div>
+      <div class="icons-zone">
+        <div class="in">
+          <div>
+            <img src="../../../../../assets/img/tarjeta-mastercard.svg" border="0" alt="">
+          </div>
+          <div>
+            <img src="../../../../../assets/img/visa%20(1).svg" border="0" alt="">
+          </div>
+          <div>
+            <img src="../../../../../assets/img/cer.svg" border="0" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div @swipe class="mb-2 second-block pr-3 pl-3">
+      <label>{{'CHECKOUT.MESSAGE' |translate}}</label>
+      <div>
+        <textarea [readOnly]="loading" formControlName="description" name="" id=""></textarea>
+      </div>
+    </div> -->
+
+    <div @swipe class="btn-zone pl-4 pr-4 mb-4 pb-4">
+      <div class="text-center">
+        <button class="btn btn-primary btn-block btn-lg" [disabled]="addForm.invalid || (loading)">
+          <span *ngIf="loading">{{'CHECKOUT.LOADING' |translate}}</span>
+          <span *ngIf="!loading">{{'CHECKOUT.PAY' |translate}}</span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+<!--  -->

@@ -1,0 +1,193 @@
+{
+  "LOADING": "Cargando",
+  "CURRENCY": "MXN",
+  "FACEBOOK": "Facebook",
+  "HELP_MODAL": {
+    "TITLE": "¿Te gustaría ser un héroe sin capa?",
+    "SENTENCE": "Forma parte de este gran proyecto, aportando parte de tu creatividad e ingenio. ",
+    "VIEW_MORE": "Nuestros héroes"
+  },
+  "CONFIRM_LEAVE": {
+    "TITLE": "¿Estas seguro?",
+    "MESSAGE": "Perderás el avance que llevas",
+    "YES": "Si",
+    "NOT": "No"
+  },
+  "FOOTER": {
+    "TEXT": "Escíbenos a <a class=\"link-a\">hola@apoyalocales.com</a>"
+  },
+  "LAST_USER": {
+    "TITLE": "Comercios más recientes"
+  },
+  "UPGRADE": {
+    "TITLE": "Actualización",
+    "MESSAGE": "Se requiere actualizar tu aplicación para el buen funcionamiento"
+  },
+  "NOTICE_DEVICE": "La versión web aun está en beta, te aconsejamos visitarnos desde un dispositivo móvil",
+  "MENU_TITLE": "\uD83D\uDCAA Es tiempo de ayudar a tu comunidad",
+  "ABOUT_US": "¿Quiénes somos?",
+  "FAQ": "¿Preguntas frecuentes?",
+  "HEADER": {
+    "HI": "Hola"
+  },
+  "SOCIAL": "¡Comparte y ayuda a otros negocios!",
+  "ERROR": {
+    "LABEL": "Error",
+    "SUB_LABEL": "Si persiste el problema contacta a hola@apoyalocales.com",
+    "PARAMETER_MISSING": "El comercio aún no ha verificado su cuena!"
+  },
+  "HOME": {
+    "LETS_GO": "Vamos a conocerte",
+    "FIND_PRODUCTS": "Encuentra locales cerca de ti",
+    "NEXT": "Siguiente",
+    "BUY": "Soy un cliente",
+    "VIEW_MORE": "Ver más",
+    "SELLER": "Soy un local",
+    "DESCRIPTION": "Apoya a tus negocios locales durante esta crisis por el COVID-19. Muchos negocios tendrán que cerrar\n        temporalmente, puedes apoyarlos comprando un voucher de compra que podrás canjear cuando todo esto termine."
+  },
+  "LIST": {
+    "DELIVER_TO": "Cerca de",
+    "SEARCH_GPS": "Buscar cerca de tu posición",
+    "YOUR_LOCATION": "¿Dónde te encuentras?",
+    "GUEST": "Invitado",
+    "REGISTER": "Regístrate",
+    "REGISTER_SENTENCE": "Puedes ser el primero",
+    "NOT_FOUND": "No se han encontrado rifas, por favor crea una!",
+    "DISPLAY_RANGE": "Mostrar comercios a menos de "
+  },
+  "DETAIL": {
+    "HELP": "¡Compra ahora, usa tu voucher después!",
+    "SOCIAL_MESSAGE": "{{value}} \uD83D\uDE09 ¡Apoya a tu comunidad! \uD83D\uDC49",
+    "SHARED_LINK": "Ayuda a compartir este Local",
+    "SHARED_PRE_TEMPLATE": "Hola soy {{name}} visita mi perfil",
+    "COLLABORATE": "Compra un Voucher",
+    "BE_FIRST": "¡Sé el primero en colaborar!",
+    "BACK": "Regresar",
+    "WHAT_IS": "¿Que es esto?",
+    "VERIFIED": "Verificado",
+    "BUY": "Comprar paquete",
+    "USER_VERIFIED": "El usuario proporciono sus datos de contactos y se han validado correctamente",
+    "PACKS": "Paquetes"
+  },
+  "CHECKOUT": {
+    "AMOUNT_TEXT": "entrgar a",
+    "LOADING": "Cargando...",
+    "MESSAGE": "Envia un mensaje de ánimo",
+    "PAY": "Pagar",
+    "MAX_AMOUNT": "Mínimo: 100, Máximo: 9999",
+    "NOTICE": {
+      "ITEM1": "El voucher que comprarás podrás hacerlo válido una vez el establecimiento vuelva a operar.",
+      "ITEM2": "Asegúrate que el establecimiento tenga su teléfono verificado y coincida con su teléfono real."
+    }
+  },
+  "WALLET": {
+    "SUPPORT": "Voucher {{value}}",
+    "YOUR_BALANCE": "Tu saldo",
+    "SENT": "Enviado",
+    "RECEIVED": "Recibido",
+    "SENTENCE": "Bienvenido a tu cuenta",
+    "PAY_RECEIVED": "Recibido:",
+    "PAY_AVAILABLE": "Disponible:",
+    "PAY_DEPOSIT": "Depositado",
+    "PAY_SENT": "Disponible!",
+    "VISITORS_NOTICE": "\uD83D\uDC49 <b>Valida tu email</b>, comparte con tus amigos, familiares y aumenta tus ingresos",
+    "ARE_YOU_SURE": "¿Deseas canjear el voucher de tu cliente?",
+    "ARE_YOU_SURE_SUB": "Al hacerlo, aceptas que el cliente ha hecho uso de su voucher y se le notificará. Solo haz esto cuando hayas cambiado el valor total del voucher por tus servicios o productos.",
+    "OK": "Si!",
+    "VERIFIED_LINK": "Verificar",
+    "SHARED_CONTACTS": "Valida y comparte con amigos",
+    "NOTICE_PAY": "Tú negocio aún NO sale en los listados, debes verificar tu cuenta, para poder enviar el dinero a tu banco",
+    "SEND_PAY": "Pago enviado!",
+    "NOT_SUPPORT_ANYONE": "Todavía no has apoyado a un local, compra un voucher y ayuda a la economía local",
+    "NOT_RECEIVED": "Aún no te han comprado vouchers, comparte tu negocio a clientes, familiares y amigos"
+  },
+  "SETTINGS": {
+    "TITLE": "Ajustes",
+    "BTN": "Actualizar",
+    "ARE_YOU_SURE": "¿Estas seguro?"
+  },
+  "MAP": {
+    "CONFIRM": "Confirmar dirección",
+    "YOU_CURRENT": "tu ubicación actual",
+    "DRAG_MARK": "Toca el marcador, arrastra y elije tu posición precisa"
+  },
+  "FB_CALLBACK": {
+    "MESSAGE": "Redireccionando"
+  },
+  "GOOGLE_CALLBACK": {
+    "MESSAGE": "Redireccionando"
+  },
+  "REGISTER": {
+    "HEADER": "Imagen de perfil",
+    "TITLE": "Crea una rifa",
+    "NAME": "Nombre",
+    "PRICE": "Precio",
+    "AMOUNT_OF_NUMBER": "Cantidad de números",
+    "EMAIL_PAYPAL": "Paypal email",
+    "BTN": "Registrar",
+    "PHONE": "Tu teléfono",
+    "DESCRIPTION": "Describe tu negocio brevemente, invita a tus clientes a apoyar",
+    "BUSINESS_NAME": "Nombre de tu negocio",
+    "CATEGORIES": "Categoría del negocio",
+    "CHOOSE": "Tu eres ..",
+    "BUYER": "Comprador",
+    "SELLER": "Vendedor",
+    "NOTICE": "La plataforma completa te cobrará un 7.5% sobre el importe total recibido. El 60% de este cargo se debe a la comisión cobrada por la plataforma que procesa los pagos y el 40% restante se utiliza para mantenimiento de la plataforma y publicidad para seguir dando a conocer apoyalocales.com y más negocios se beneficien de esto.",
+    "MAP": "Mapa",
+    "SOCIAL_LOGIN": "Inicia sesión con",
+    "REGISTER_ALERT": "Debes ingresar todos los datos obligatorios"
+  },
+  "WAIT": {
+    "TITLE": "Registro",
+    "TITLE_SELLER": "Un paso más",
+    "SENTENCE_SELLER": "Estás muy cerca, para poder enviarte el dinero se necesita vincular un cuenta bancaria.",
+    "SENTENCE_RECOMMEND": "<li><i class=\"fas fa-check-circle\"></i> Número de RFC</li>\n <li><i class=\"fas fa-check-circle\"></i> Cuenta CLABE</li>\n <li><i class=\"fas fa-check-circle\"></i> Foto de documento de identificación.</li>",
+    "SENTENCE": "Tu registro realizado exitosamente, si elegiste vendedor en pocas horas estaremos revisando tu solicitud",
+    "SHARE": "Recuerda compartir",
+    "SKIP": "Intentar luego",
+    "CONTINUE": "Continuar"
+  },
+  "THANK_YOU": {
+    "TITLE": "¡Gracias!",
+    "LOCAL_E": "Gracias por apoyar y fomentar la económica local",
+    "SHARE": "Recuerda compartir",
+    "BTN": "Continuar"
+  },
+  "ERROR_PAGE": {
+    "TITLE": "Error!",
+    "TEXT": "Ocurrió un problema con tu pago, si el problema persiste contacta a hola@apoyalocales.com",
+    "BTN": "Continuar"
+  },
+  "STRIPE_LINK": {
+    "TITLE": "¡Vinculando!",
+    "TEXT": "Estamos vinculando tu cuenta de stripe",
+    "BACK": "Volver a intentar",
+    "BTN": "Continuar"
+  },
+  "CARD": {
+    "CARD_HOLDER": "Titular de la tarjeta",
+    "CARD_NUMBER": "Número de la tarjeta",
+    "CARD_CVC": "CVC",
+    "CARD_EXP": "MM/YY"
+  },
+  "REPORT": {
+    "TITLE": "Reporte",
+    "TICKETS": "Números de sorteo"
+  },
+  "RAFFLE": {
+    "TITLE": "listado de rifas"
+  },
+  "AFFILIATE": {
+    "NOT_FOUND": "No hay registros de afiliados",
+    "TITLE": "Lista de afiliados",
+    "NAME": "Nombre",
+    "REFERRED": "Referido",
+    "GAIN": "Ganancia"
+  },
+  "TICKECT": {
+    "TITLE": "Elige tu número",
+    "TOTAL": "Total",
+    "COST": "Cost per number",
+    "PAY": "Pagar"
+  }
+}

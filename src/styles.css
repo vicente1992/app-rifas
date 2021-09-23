@@ -1,1 +1,568 @@
 /* You can add global styles to this file, and also import other style files */
+
+.register {
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  /* min-height: 100vh; */
+  /* background: lighten(#3B5998,35%); */
+}
+.btn-facebook {
+	  background: #3B5998;
+	  border-radius: 0;
+	  color: #fff !important;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #263961;
+	}
+	.btn-facebook:link, .btn-facebook:visited {
+	  color: #fff;
+	}
+	.btn-facebook:active, .btn-facebook:hover {
+	  background: #263961;
+	  color: #fff;
+	}
+/* You can add global styles to this file, and also import other style files */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #366AEC;
+}
+
+.modal-home-register {
+  margin: 0;
+}
+
+.swal2-container .swal2-title {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: 500;
+}
+
+.sb-default .sb-wrapper {
+  border-radius: .7rem !important;
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+.btn-primary:disabled {
+  background-color: #6b6c6c;
+  border-color: #aeaeae;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.truncate-multi {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
+
+.map-lg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  margin: 0;
+}
+
+.link-a {
+  color: #522056 !important;
+  font-weight: 600;
+}
+
+.map-lg .modal-content {
+  height: 100vh;
+}
+
+.upload-zone .file-drop-wrapper {
+  background-color: #FAFAFA !important;
+  padding-top: 0 !important;
+}
+
+.upload-zone file-drop {
+  padding: 0 !important;
+}
+
+.upload-zone #dropZone, .upload-zone {
+  border-radius: 2rem !important;
+  padding: 0 !important;
+}
+
+.file-browse-button {
+  background-color: #366AEC !important;
+}
+
+.cloud-upload-icon, .cloud-upload-icon:before, .cloud-upload-icon:after {
+  border-left: .0625em solid #366AEC !important;
+  border-top: .0625em solid #366AEC !important;
+  border-bottom: .0625em solid #366AEC !important;
+}
+
+.cloud-upload-icon:before {
+  border-right: .0625em solid #366AEC !important;
+}
+
+.cloud-upload-icon i:before, .cloud-upload-icon:after {
+  background-color: #366AEC !important;
+}
+
+.cloud-upload-icon i:after {
+  border-top: .0625em solid #366AEC !important;
+  border-right: .0625em solid #366AEC !important;
+}
+
+.modal-shared {
+  top: 3rem;
+  margin: 2rem 1rem;
+}
+
+.modal-shared .modal-content {
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 15px rgba(182, 182, 182, 0.28);
+}
+
+.StripeElement--invalid, form .ng-invalid {
+  box-shadow: 0 0 2px #ff3838;
+  border: solid 1px #ff5050a8 !important;
+}
+
+form.ng-invalid {
+  box-shadow: 0 0 0px transparent !important;
+}
+
+/*.ng-untouched {*/
+/*  box-shadow: 0 0 0px transparent !important;*/
+/*}*/
+
+.swal2-popup {
+  border-radius: 1.2rem !important;
+  box-shadow: 0 0 9px #adadad !important;
+}
+
+.swal2-popup button {
+  border-radius: 3rem !important;
+}
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+  background: rgba(159, 159, 159, 0.47) !important;
+}
+
+.swal2-content {
+  display: block !important;
+  color: #727272 !important;
+  font-size: .95rem !important;
+  font-family: 'Baloo Thambi 2', cursive !important;
+  font-weight: 500 !important;
+}
+
+.notice-device, .notice-footer {
+  display: none;
+}
+
+.custom-input-tel {
+  width: 100%;
+  border: 0;
+  font-weight: 500;
+  background: transparent;
+  border-radius: 2rem;
+  height: 3.1rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.intl-tel-input {
+  width: 100%;
+}
+
+.tooltip-custom .tooltip-inner {
+  background-color: white;
+  color: #222;
+  font-size: .8rem;
+  border-radius: 1rem;
+  font-family: 'Baloo Thambi 2', cursive;
+  box-shadow: 0 0 11px rgba(157, 157, 157, 0.74);
+  font-weight: 500;
+}
+
+.flag-icon.flag-icon-squared {
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  width: 1em;
+}
+
+.tooltip-custom .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+  border-top-color: #fff;
+}
+
+.slider-range-custom .original, .range-slider .info, .range-slider .ghost {
+  display: none !important;
+}
+
+.range-slider {
+  padding: .3rem .5rem;
+}
+
+.range-slider input[type="range"] {
+  background: #0080ff !important;
+  --range-color: #0080ff !important;
+  border-radius: 12px;
+  position: relative !important;
+}
+
+.range-slider span:first-child,
+.range-slider span:last-child {
+  display: none !important;
+}
+
+.range-slider, .range-slider input {
+  width: 100% !important;
+}
+
+
+.range-slider input[type=range] {
+  height: 25px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.range-slider input[type=range]:focus {
+  outline: none;
+}
+
+.range-slider input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #2497E3;
+  border-radius: 12px;
+  border: 0px solid #000000;
+}
+
+.range-slider input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+.range-slider input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #2497E3;
+}
+
+.range-slider input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #2497E3;
+  border-radius: 12px;
+  border: 0px solid #000000;
+}
+
+.range-slider input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+
+.range-slider input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.range-slider input[type=range]::-ms-fill-lower {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 12px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+.range-slider input[type=range]::-ms-fill-upper {
+  background: #2497E3;
+  border: 0px solid #000000;
+  border-radius: 12px;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+.range-slider input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 1px solid #2497E3;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #A1D0FF;
+  cursor: pointer;
+}
+
+.range-slider input[type=range]:focus::-ms-fill-lower {
+  background: #2497E3;
+}
+
+.range-slider input[type=range]:focus::-ms-fill-upper {
+  background: #2497E3;
+}
+
+ngx-intl-tel-input {
+  font-size: 1.8rem !important;
+  border-radius: 3rem !important;
+}
+
+.pac-container {
+  z-index: 9999 !important;
+  border-radius: 1rem;
+}
+
+.pac-item {
+  padding: 5px;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+.iti-flag {
+  border-radius: 1rem;
+}
+
+.country-dropdown {
+  width: 94vw !important;
+}
+
+.upgrade-page {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.upgrade-page .modal-content {
+  border: 0 !important;
+}
+
+.pulse {
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(229, 63, 51, 0.4);
+  animation: pulse .6s infinite;
+}
+
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(229, 63, 51, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(229, 63, 51, 0.4);
+    box-shadow: 0 0 0 0 rgba(229, 63, 51, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+.modal-help-hero .modal-content{
+  border: solid 5px rgba(255, 255, 255, 0.49);
+  min-height: 18rem;
+  padding: .35rem;
+  border-radius: 1rem;
+}
+.modal.show .modal-dialog{
+  margin: 0;
+}
+/**
+
+ */
+@media (min-width: 600px) {
+  body {
+
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23fbfcff' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23f7faff' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23f2f7ff' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23eef5ff' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23eaf2ff' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23ebecff' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23ece7ff' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23ede1ff' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23eedcff' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23efd6ff' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  @keyframes example {
+    0% {
+      background-color: #c9deff;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23d4e5ff' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23dfebff' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23eaf2ff' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23f5f8ff' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23ffffff' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23f6ffff' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23edffff' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23e4fffe' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23dbfffe' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23d1fffe' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    50% {
+      background-color: #fff2f3;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23ffe6e7' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23ffdbdb' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23ffcfcf' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23ffc4c4' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23ffb8b8' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23ffc0c3' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23ffc8ce' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23ffd0d9' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23ffd8e5' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23ffe0f0' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    75% {
+      background-color: #ffffff;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23fbfcff' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23f7faff' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23f2f7ff' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23eef5ff' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23eaf2ff' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23ebecff' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23ece7ff' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23ede1ff' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23eedcff' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23efd6ff' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  }
+
+  body app-root > :nth-child(5) {
+    margin-left: 5vw;
+    border-radius: .99rem;
+    margin-right: auto;
+    width: 30vw;
+    margin-top: 2.5rem;
+    box-shadow: 0px 11px 74px rgba(64, 64, 64, 0.5);
+  }
+
+  body app-root app-report{
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .notice-device .logo {
+    width: 10rem;
+    object-fit: contain;
+  }
+
+  .notice-device {
+    cursor: pointer;
+    display: block;
+    background: rgba(255, 255, 255, 0.96);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    min-height: 2.5rem;
+    font-size: .85rem;
+    line-height: 2.5rem;
+    top: 0;
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: fixed;
+    color: rgba(68, 68, 68, 0.53);
+    z-index: 99;
+    justify-content: center;
+    box-shadow: 0 0 16px rgba(158, 158, 158, 0.41);
+  }
+
+  .notice-footer {
+    bottom: 0;
+    position: fixed;
+    padding: 1rem;
+    display: block;
+  }
+
+  .float-range {
+    bottom: 6vh !important;
+  }
+
+  .notice-footer .in {
+    background-color: white;
+    padding: .99rem;
+    font-size: .70rem;
+    border-radius: 1rem;
+  }
+
+  .notice-footer .in a:hover {
+    text-decoration: none !important;
+  }
+
+  .notice-footer .in a:hover:before {
+    content: "👇";
+    position: absolute;
+    margin-top: -15px;
+
+  }
+
+  .modal {
+    margin: auto !important;
+    width: 31rem !important;
+    margin-top: 1rem !important;
+    border-radius: 1rem !important;
+  }
+
+  .cover {
+    border-top-left-radius: .99rem !important;
+    border-top-right-radius: .99rem !important;
+  }
+
+  .content, .wrapper-img-cover {
+    border-radius: .99rem !important;
+  }
+
+  .over-social .in, .float-range .in {
+    width: 22% !important;
+  }
+
+  .map-lg {
+    overflow: hidden;
+  }
+
+
+  app-map-overview .mapboxgl-map{
+    border-radius: 1rem;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.27);
+    border: solid 3px rgba(255, 255, 255, 0.72);
+  }
+}
+
+.btn-primary {
+  background-color: #F65163;
+  border-color: #ff5d65
+}

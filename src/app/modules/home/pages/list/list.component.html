@@ -1,0 +1,46 @@
+<div class="content">
+  <app-header></app-header>
+  <div class="header text-center pt-4">
+    <div class="title">{{'RAFFLE.TITLE' | translate}}</div>
+  </div>
+  <!-- list-->
+  <div class="list mt-4">
+    <div class="in">
+      <ul>
+        <li @swipe class="d-flex" *ngFor="let item of raffles">
+          <div class="row" [routerLink]="['/','home','detail', item?.slug]">
+            <div class="col-5 pt-2 img-broken">
+              <img class="img ml-1" [src]="item?.avatar | image" alt="">
+            </div>
+            <div class="col-7 content">
+              <div class="name truncate">
+                {{item?.name}}
+              </div>
+              <div class="votes truncate">
+                <span class="short-location">{{item?.description}}</span>
+              </div>
+              <div class="time truncate">
+                <img class="img-avatar mr-1" [src]="item?.user.avatar" alt="">
+                <span class="badge">{{item?.user.name}}</span>
+              </div>
+              <div class="truncate description-short">
+                <small>{{item?.name}}</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 text-center favorite">
+            <!-- <span (click)="deleteRafle(item)"><i class="fas fa-trash-alt"></i></span> -->
+          </div>
+        </li>
+        <div @swipe *ngIf="!raffles?.length" class="seller text-center">
+          <div class="mt-2 alert alert-warning">
+            {{'LIST.NOT_FOUND' |translate}}
+            <br>
+            {{'LIST.REGISTER_SENTENCE' |translate}}
+          </div>
+        </div>
+      </ul>
+
+    </div>
+  </div>
+</div>

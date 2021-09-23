@@ -1,0 +1,31 @@
+<div class="content">
+  <app-header></app-header>
+  <div class="header text-center pt-4">
+    <div class="title">{{'AFFILIATE.TITLE' | translate}}</div>
+  </div>
+  <!-- list-->
+  <table class="table mt-4" *ngIf="data?.length">
+    <thead>
+      <tr>
+        <th scope="col">{{'AFFILIATE.NAME' | translate}}</th>
+        <th scope="col">{{'AFFILIATE.REFERRED' | translate}}</th>
+        <th scope="col">{{'AFFILIATE.GAIN' | translate}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of data">
+        <td>{{item.name}}</td>
+        <td>{{item.totalReferred }}</td>
+        <td>{{item.gain}}</td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div *ngIf="!data?.length" class="seller text-center">
+    <div class="mt-2 alert alert-warning">
+      {{'AFFILIATE.NOT_FOUND' |translate}}
+      <br>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,41 @@
+<div class="content mb-5">
+  <div class="navigate">
+    <div class="opt" [routerLink]="['/','home']">
+      <i class="fas fa-angle-left fa-lg"></i>
+      <span class="ml-2">{{'DETAIL.BACK' | translate}}</span>
+    </div>
+    <div *ngIf="total > 0">
+      <p>{{'TICKECT.TOTAL' | translate}}: {{total}} {{'CURRENCY' | translate}}</p>
+      <button type="button" class="btn btn-lg btn-block btn-primary" (click)="toPay()">
+        {{'TICKECT.PAY' | translate}}
+      </button>
+    </div>
+  </div>
+
+  <div class="content-list">
+    <div class="text-center">
+      <p> {{data?.name}} </p>
+    </div>
+    <h4 class="text-center pb-2">{{'TICKECT.TITLE' | translate}}</h4>
+    <p class="text-center pb-2">{{'TICKECT.COST' | translate}} $500 {{'CURRENCY' | translate}}</p>
+    <div class="list">
+      <div class="in">
+        <ul>
+          <li class="d-flex" *ngFor="let item of data?.tickects let i=index">
+            <div class="col-10">
+              <p>{{item.value}}</p>
+            </div>
+            <div class="col-2">
+              <label>
+                <input [id]="item.value" type="checkbox" name="checkNumber" [checked]="item.checked"
+                  (click)="selectedNumber(item)">
+                <span></span>
+              </label>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

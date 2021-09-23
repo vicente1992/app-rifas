@@ -1,0 +1,19 @@
+<div class="content">
+  <div class="register">
+    <div class="header text-center pt-4">
+      <div class="title">{{'REGISTER.SOCIAL_LOGIN' | translate}}</div>
+    </div>
+    <div *ngIf="loadingIn" class="text-center">
+
+      <img class="loading" src="../../../../../assets/img/loading.svg" alt="">
+      <div>
+        {{'LOADING' | translate}}..
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <button (click)="fbLogin()" title="Facebook" class="btn btn-facebook btn-lg"><i class="fa fa-facebook fa-fw"></i>
+        {{'FACEBOOK' | translate}}</button>
+    </div>
+  </div>
+
+</div>

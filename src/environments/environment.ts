@@ -3,7 +3,25 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  fbId: '',
+  api: 'http://localhost:4000/api',
+  daysTokenExpire: 4,
+  secondNotification: 4500,
+  googleApiKeyPlace: '',
+  vapid: '',
+  stripe_pk: '',
+  shareFacebook: 'https://www.facebook.com/sharer/sharer.php?u=',
+  amounts: {
+    min: 100,
+    max: 9999
+  },
+  sentry: null,
+  hash: true,
+  prefixTag: '💪 Apoyalocales.com',
+  fbRedirect: 'callback/facebook',
+
 };
 
 /*

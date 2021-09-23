@@ -1,0 +1,67 @@
+<div class="content">
+
+  <div class="navigate">
+    <div class="opt" [routerLink]="['/','home']">
+      <i class="fas fa-angle-left fa-lg"></i>
+      <span class="ml-2">{{'DETAIL.BACK' | translate}}</span>
+    </div>
+  </div>
+  <!--image -->
+  <div class="wrapper-img-cover">
+    <div class="cover" [style.backgroundImage]="'url('+urlImage+')'"></div>
+    <!-- <div class="cover" [style.backgroundImage]="'url(linkImg(raffles?.avatar)) '"></div> -->
+  </div>
+
+  <!--sub-bar -->
+  <div class="bar d-flex">
+    <div class="col-8">
+      <div class="title truncate mt-2">
+        {{raffles?.name}}</div>
+      <div class="sub-title truncate">
+        <span class="ml-1 truncate">
+          <i class="fas fa-user mr-2"></i> {{raffles?.user.name}}
+        </span>
+      </div>
+    </div>
+    <div class="col-4 text-center p-0">
+      <img class="avatar" [src]="raffles?.user.avatar" alt="">
+    </div>
+
+  </div>
+
+  <!-- description -->
+  <div class="pt-2 pb-2 pl-3 pr-3 description">
+    {{raffles?.description}}
+  </div>
+
+  <div class="text-center p-2 text-muted ml-4 mr-4 font-italic">
+    {{'DETAIL.HELP' | translate}}
+  </div>
+
+  <div @swipe class="p-4 d-flex">
+    <button [routerLink]="['/','home','ticket',raffles?.slug]" class="btn btn-lg btn-block btn-primary">
+      <span class="mr-1">{{'DETAIL.BUY' | translate}}</span>
+    </button>
+  </div>
+
+
+  <div class="social-zone">
+    <div class="text-center label-zone-social">{{'DETAIL.SHARED_LINK' | translate}}</div>
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="icono mx-2" (click)="shareLink()">
+        <a class="icono-primary"><i class="fa fa-facebook"></i></a>
+      </div>
+      <div *ngIf="dataUser?.role ==='admin'" class="d-flex justify-content-center align-items-center">
+        <div class="btn-round mx-2" [routerLink]="['/','home','referred-list', raffles?._id]">
+          <i class="fas fa-user-friends"></i>
+        </div>
+        <div class="btn-update mx-2" [routerLink]="['/','home','create', raffles?._id]">
+          <i class="fas fa-pen-alt"></i>
+        </div>
+        <div class="btn-delete mx-2" (click)="deleteRafle(raffles)">
+          <i class="fas fa-trash"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

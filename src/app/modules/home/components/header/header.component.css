@@ -1,0 +1,53 @@
+:host .header .title {
+  font-size: 1.8rem;
+}
+
+:host .header .sub-title {
+  color: #7F7F7F;
+}
+
+:host .header .title .font-weigh {
+  font-weight: 600;
+}
+:host .link {
+  cursor: pointer;
+  color: #522056;
+  font-weight: 600;
+}
+:host .menu .avatar{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4rem;
+  object-fit: cover;
+}
+:host .first {
+  padding: 1rem 1rem .5rem;
+  font-size: .85rem;
+  font-weight: 500;
+}
+
+:host .first .amount {
+  font-size: 2.5rem;
+  padding: 0rem .5rem 0rem;
+  color: #373737;
+}
+:host a{
+  color: #522056;
+}
+:host .first .amount span {
+  background: #f6f6f6;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  width: 100%;
+  display: block;
+}
+:host .menu .btn-round {
+  background-color: #f6f6f6 !important;
+  opacity: .9;
+  border-radius: 4rem;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  line-height: 4rem;
+  color: #222;
+}

@@ -1,0 +1,73 @@
+<div class="content">
+  <div class="mx-2">
+    <app-header></app-header>
+  </div>
+  <div class="header text-center pt-4">
+    <div class="title">{{'REGISTER.TITLE' | translate}}</div>
+  </div>
+  <form [formGroup]="addForm" (ngSubmit)="submit()">
+    <div class="over-social" *ngIf="loadingIn">
+      <div class="in">
+        <div *ngIf="loadingIn" class="text-center">
+          <img class="loading" src="../../../../../assets/img/loading.svg" alt="">
+          <div>
+            {{'LOADING' | translate}}..
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="first-block">
+      <div @swipe>
+        <label>{{'REGISTER.HEADER' |translate}}</label>
+
+        <ngx-awesome-uploader class="upload-zone" [ngClass]="{'ng-invalid':(!addForm.value.avatar)}" [adapter]="adapter"
+          [uploadType]="'single'" [fileMaxSize]="20" (fileAdded)="onFileAdded($event)"
+          (removeSuccess)="removeSuccess($event)" (uploadSuccess)="onSuccess($event)"
+          [fileExtensions]="['jpg', 'jpeg', 'png','jfif']">
+          <div [style.backgroundImage]="'url('+cover+')'" class="dropzoneTemplate header">
+          </div>
+        </ngx-awesome-uploader>
+
+      </div>
+    </div>
+
+    <div class="second-block">
+      <div class="mb-2">
+        <label>{{'REGISTER.NAME' |translate}}</label>
+        <div>
+          <input formControlName="name" maxlength="300" type="text">
+        </div>
+      </div>
+      <div class="mb-2">
+        <label>{{'REGISTER.PRICE' |translate}}</label>
+        <div>
+          <input formControlName="price" type="number">
+        </div>
+      </div>
+      <div class="mb-2">
+        <label>{{'REGISTER.AMOUNT_OF_NUMBER' |translate}}</label>
+        <div>
+          <input formControlName="amountNumber" type="number">
+        </div>
+      </div>
+      <div class="mb-2">
+        <label>{{'REGISTER.DESCRIPTION' |translate}}</label>
+        <div>
+          <textarea formControlName="description" name="" id=""></textarea>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="button-zone ml-2 mr-2 mb-4">
+      <button [disabled]="addForm.invalid" type="submit" class="btn btn-lg btn-block btn-primary">
+        {{'REGISTER.BTN' |translate}}
+      </button>
+      <div class="mt-1 text-center text-muted">
+        {{'REGISTER.REGISTER_ALERT' |translate}}
+      </div>
+    </div>
+  </form>
+</div>

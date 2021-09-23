@@ -1,0 +1,184 @@
+/* :host {
+  display: block;
+  background-color: #522056;
+  font-family: 'Baloo Thambi 2', cursive;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+:host .content {
+  height: 90vh;
+  background-color: white;
+  border-radius: .25rem .25rem 1.5rem 1.5rem;
+  padding: .35rem 1rem;
+} */
+:host .navigate {
+  /* position: absolute; */
+
+  width: 100%;
+  left: 0;
+  top: 0;
+  /* padding: .75rem 1rem; */
+   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+:host
+.content-list{
+  padding-top: 25px;
+}
+
+/* .list {
+
+    display: block;
+    background: #fff;
+    padding: 20px;
+
+} */
+/* :host .list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+    .list ul {
+       position: relative;
+      padding: 20px;
+       margin-bottom: 20px;
+    }
+
+    .list ul li {
+      list-style: none;
+      padding: 15px 0;
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .list ul li:last-child {
+      border-bottom: none;
+    }
+
+    .list ul li label {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .list ul li label input {
+      visibility: hidden;
+      appearance: none;
+    }
+
+    .list ul li label p {
+      position: absolute;
+      font-size: 18px;
+    }
+
+    .list ul li label span {
+      position: relative;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid #adadad;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .list ul li label span::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      width: 10px;
+      height: 5px;
+      transform: rotate(-40deg);
+    }
+
+
+    .list ul li label input:checked~span {
+      background: #F65163;
+      border: 1px solid #F65163;
+    }
+
+    .list ul li label input:checked~span::before {
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+    } */
+    :host .list{
+
+      padding:  0 20px;
+
+    }
+:host .list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:host .list ul li {
+     list-style: none;
+      padding: 15px 0;
+      border: 1px solid rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 10px;
+    max-height: 3rem;
+}
+    .list ul li p {
+      position: absolute;
+      font-size: 18px;
+    }
+
+    .list ul li label {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .list ul li label input {
+      visibility: hidden;
+      appearance: none;
+    }
+
+    .list ul li label p {
+      position: absolute;
+      font-size: 18px;
+    }
+
+    .list ul li label span {
+      position: relative;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: 1px solid #adadad;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .list ul li label span::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      width: 10px;
+      height: 5px;
+      transform: rotate(-40deg);
+    }
+
+
+    .list ul li label input:checked~span {
+      background: #F65163;
+      border: 1px solid #F65163;
+    }
+
+    .list ul li label input:checked~span::before {
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+    }

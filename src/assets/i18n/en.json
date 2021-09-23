@@ -1,0 +1,190 @@
+{
+  "LOADING": "Loading",
+  "CURRENCY": "MXN",
+  "FACEBOOK": "Facebook",
+  "HELP_MODAL": {
+    "TITLE": "¿Te gustaría ser un héroe sin capa?",
+    "SENTENCE": "Forma parte de este gran proyecto, aportando parte de tu creatividad e ingenio. ",
+    "VIEW_MORE": "Nuestros héroes"
+  },
+  "CONFIRM_LEAVE": {
+    "TITLE": "¿Quieres abandonar?",
+    "MESSAGE": "Si sales perderás el avance que llevas",
+    "YES": "Si",
+    "NOT": "No"
+  },
+  "FOOTER": {
+    "TEXT": "Escíbenos a <a class=\"link-a\">hola@apoyalocales.com</a>"
+  },
+  "LAST_USER": {
+    "TITLE": "Last users"
+  },
+  "UPGRADE": {
+    "TITLE": "Actualización",
+    "MESSAGE": "Se requiere actualizar tu aplicación para el buen funcionamiento"
+  },
+  "NOTICE_DEVICE": "La versión web aun está en beta, te aconsejamos visitarnos desde un dispositivo móvil",
+  "MENU_TITLE": "\uD83D\uDCAA Es tiempo de ayudar a tu comunidad",
+  "ABOUT_US": "¿Quiénes somor?",
+  "FAQ": "¿Preguntas frecuentes?",
+  "SOCIAL": "Shared with all people!",
+  "HEADER": {
+    "HI": "Hi"
+  },
+  "ERROR": {
+    "LABEL": "Error",
+    "SUB_LABEL": "Si persiste el problema 555555",
+    "PARAMETER_MISSING": "El local aún no ha verificado su cuena!"
+  },
+  "HOME": {
+    "LETS_GO": "Let's get to know you",
+    "FIND_PRODUCTS": "Find products are beffer for you",
+    "NEXT": "Next",
+    "BUY": "I'm buyer",
+    "SELLER": "I'm seller",
+    "VIEW_MORE": "View more",
+    "DESCRIPTION": "Apoya a tus negocios locales durante esta crisis por el COVID-19. Muchos negocios tendrán que cerrar\n        temporalmente, puedes apoyarlos comprando un voucher de compra que podrás canjear cuando todo esto termine."
+  },
+  "LIST": {
+    "DELIVER_TO": "Nearby",
+    "SEARCH_GPS": "Search current position",
+    "YOUR_LOCATION": "¿Where are you?",
+    "SELLER": "Buyer",
+    "REGISTER": "Sign up",
+    "REGISTER_SENTENCE": "You can be the first!",
+    "NOT_FOUND": "No raffles found, please create one",
+    "DISPLAY_RANGE": "Mostrar comercios a menos de "
+  },
+  "DETAIL": {
+    "HELP": "Support to user",
+    "SOCIAL_MESSAGE": "Support to user",
+    "SHARED_LINK": "Ayuda a compartir",
+    "SHARED_PRE_TEMPLATE": "Hola soy {{name}} visita mi perfil",
+    "COLLABORATE": "Collaborate",
+    "BE_FIRST": "Be the first to cooperate!",
+    "WHAT_IS": "¿Que es esto?",
+    "VERIFIED": "Verificado",
+    "BUY": "Comprar paquete",
+    "USER_VERIFIED": "El usuario proporciono sus datos de contactos y se han validado correctamente",
+    "PACKS": "Paquetes"
+  },
+  "CHECKOUT": {
+    "AMOUNT_TEXT": "Deliver to",
+    "LOADING": "Loading...",
+    "MESSAGE": "Message",
+    "PAY": "Pay",
+    "MAX_AMOUNT": "Max: 9999, Min:1",
+    "NOTICE": {
+      "ITEM1": "El voucher que comprarás podrás hacerlo válido una vez el establecimiento vuelva a operar.",
+      "ITEM2": "Asegúrate que el establecimiento tenga su teléfono verificado y coincida con su teléfono real."
+    }
+  },
+  "WALLET": {
+    "SUPPORT": "Support with {{value}}",
+    "YOUR_BALANCE": "Your balance",
+    "SENT": "Sent",
+    "RECEIVED": "Received",
+    "SENTENCE": "Welcome to your wallet, profile, your QRCODE",
+    "NOT_SUPPORT_ANYONE": "You haven't supported anyone yet!",
+    "PAY_RECEIVED": "Received",
+    "PAY_AVAILABLE": "Available",
+    "PAY_DEPOSIT": "Deposit",
+    "PAY_SENT": "Sent!",
+    "VISITORS_NOTICE": "\uD83D\uDC49 Tú perfil lo han visto <b>menos de 10 personas</b>, comparte con tus amigos, familiares y aumenta tus ingresos",
+    "ARE_YOU_SURE": "Are you sure?",
+    "ARE_YOU_SURE_SUB": "The money will be sent instantly",
+    "OK": "Yes!",
+    "VERIFIED_LINK": "Yes!",
+    "SHARED_CONTACTS": "Valida y comparte con amigos",
+    "NOTICE_PAY": "Aun debes verificar tu cuenta, para poder enviar el dinero a tu banco",
+    "SEND_PAY": "Pay sent!",
+    "NOT_RECEIVED": "You still don't get help, share with your friends"
+  },
+  "SETTINGS": {
+    "TITLE": "Ajustes",
+    "BTN": "Actualizar",
+    "ARE_YOU_SURE": "¿Estas seguro?"
+  },
+  "MAP": {
+    "CONFIRM": "Confirm address",
+    "YOU_CURRENT": "You current position",
+    "DRAG_MARK": "Touch the marker drag and choose your precise position"
+  },
+  "FB_CALLBACK": {
+    "MESSAGE": "Redirecting"
+  },
+  "REGISTER": {
+    "HEADER": "Your cover photo",
+    "TITLE": "Create a raffle",
+    "NAME": "Name",
+    "PRICE": "Price",
+    "AMOUNT_OF_NUMBER": "Amount of number",
+    "ADDRESS": "Your address",
+    "EMAIL": "Your email",
+    "EMAIL_PAYPAL": "Paypal email",
+    "BTN": "Registrar",
+    "PHONE": "Your phone",
+    "DESCRIPTION": "Your description",
+    "BUSINESS_NAME": "Your business name",
+    "CATEGORIES": "Categories",
+    "CHOOSE": "Your are ..",
+    "BUYER": "Guest",
+    "SELLER": "Seller",
+    "NOTICE": "Lorem",
+    "MAP": "Map",
+    "SOCIAL_LOGIN": "Sign up with",
+    "REGISTER_ALERT": "Debes ingresar todos los datos obligatorios"
+  },
+  "WAIT": {
+    "TITLE": "Full registration",
+    "SENTENCE_SELLER": "Estás muy cerca, para poder enviarte el dinero se necesita vincular un cuenta bancaria, ten a mano tus datos bancarios",
+    "SENTENCE_RECOMMEND": "Estás muy cerca, para poder enviarte el dinero se necesita vincular un cuenta bancaria.",
+    "SENTENCE": "Tu registro realizado exitosamente, si elegiste vendedor en pocas horas estaremos revisando tu solicitud",
+    "SHARE": "Remember to share",
+    "SKIP": "Intentar luego",
+    "CONTINUE": "Continue"
+  },
+  "THANK_YOU": {
+    "TITLE": "Thank you!",
+    "LOCAL_E": "Thank you for supporting local commerce",
+    "SHARE": "Remember to share",
+    "BTN": "Continue"
+  },
+  "ERROR_PAGE": {
+    "TITLE": "Error!",
+    "TEXT": "Ocurrió un problema con tu pago, si el problema persiste contacta",
+    "BTN": "Continue"
+  },
+  "STRIPE_LINK": {
+    "TITLE": "Linking!",
+    "TEXT": "Ocurrió un problema con tu pago, si el problema persiste contacta",
+    "BACK": "Volver a intentar",
+    "BTN": "Continue"
+  },
+  "CARD": {
+    "CARD_HOLDER": "Card holder",
+    "CARD_NUMBER": "Card number",
+    "CARD_CVC": "CVC",
+    "CARD_EXP": "MM/YY"
+  },
+  "REPORT": {
+    "TITLE": "Reporte",
+    "TICKETS": "Números de sorteo"
+  },
+  "RAFFLE": {
+    "TITLE": "raffle list"
+  },
+  "AFFILIATE": {
+    "NOT_FOUND": "No affiliate records",
+    "TITLE": "Affiliate List",
+    "NAME": "Name",
+    "REFERRED": "referred",
+    "GAIN": "Gain"
+  },
+  "TICKECT": {
+    "TITLE": "Choose your number",
+    "TOTAL": "Total",
+    "COST": "Cost per number",
+    "PAY": "To pay"
+  }
+}
